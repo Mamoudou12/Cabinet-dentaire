@@ -857,10 +857,17 @@ padding-top: 90px;
         flex-direction: column;
         margin-left: 0;
     }
-    #conteneur img{
-       margin-left: 15px;
+    /* #conteneur img{
+       margin-left: 0;
        border-radius: 30px;
     
+    } */
+
+    #conteneur .photo img {
+        width: 400px;
+        margin: auto;
+       
+
     }
     .texte {
         width: 90%;
@@ -878,8 +885,11 @@ padding-top: 90px;
         border: 2px solid #E7E7E7;
         padding-bottom: 20px;
         border-radius: 10px;
+        
 
     }
+
+    
     #form {
         flex-direction: column;
     }
@@ -895,12 +905,16 @@ padding-top: 90px;
     .button button{
         width: 40%;
     }
-    .formright{
-        width: 60%;
+    #form .formright{
+        width: 70%;
         height: 500px;
-        margin-left: 70px;
-        padding: 40px;
         padding-top: 60px;
+        margin-right: 20px;
+        
+    }
+
+    #form .formright form {
+      margin: auto;
     }
 
     .f-left p {
@@ -932,6 +946,13 @@ padding-top: 90px;
     .formleft {
         display: none;
     }
+
+    #pour .bim h2 {
+        font-size: 30px;
+        width: 100%;
+        margin: auto;
+
+    }
     
     #inp input {
         margin: 5px;
@@ -946,7 +967,7 @@ padding-top: 90px;
 
 
     #inp h2 {
-         text-align: center;
+        text-align: center;
         margin: auto; 
         margin-right: 100px;
         font-size: 13px;
@@ -977,7 +998,20 @@ padding-top: 90px;
      }
 
      
+     #account {
+        padding-top: 100px;
+        width: 200px;
+        padding: 70px;
+     }
 
+
+     #login {
+        /* padding-top: 100px; */
+        width: 200px;
+        padding-right: 70px;
+        padding-left: 70px;
+     }
+     
 
 
     
@@ -1034,6 +1068,7 @@ padding-top: 90px;
         flex-direction: column;
         margin-left: 0;
         background-color: white;
+        
     }
 
     #doct .med {
@@ -1041,6 +1076,8 @@ padding-top: 90px;
         padding-bottom: 20px;
         border-radius: 10px;
         margin: auto;
+        margin-top: 20px;
+        
 
     }
 
@@ -1078,19 +1115,6 @@ padding-top: 90px;
     
     
 
-    #account h1 {
-        margin-bottom: 0;
-    }
-
-
-
-    #account {
-        padding: 70px 0;
-    }
-
-    .labels {
-       gap: 0; 
-    }
 
     
     
