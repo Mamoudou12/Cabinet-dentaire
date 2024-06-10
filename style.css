@@ -51,7 +51,9 @@ button {
 }
 
 .login {
-    width: 100px;
+    width: 90px;
+    /* margin-top: 5px; */
+    margin-top: 4px;
 }
 
 button {
@@ -102,7 +104,7 @@ button {
 }
 
 .started {
-    width: 290px;
+    width: 60%;
 }
 
 .zz {
@@ -265,26 +267,6 @@ button {
 
 }
 
-/* .work {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    width: 80%;
-    margin-left: 110px;
-   
-}   */
-
-/* .work::after {
-    position: absolute;
-    content: "";
-    height: 2px;
-    background-color: #777777;
-    transform: translateY(20px);
-    width: 71%;
-    margin-left: 120px;
-    
-} */
 
 .work h1 {
     text-align: center;
@@ -327,24 +309,20 @@ button {
 
 #conteneur {
     display: flex;
-    width: 80%;
-    margin-left: 100px;
-   
-
-    
+    width: 90%;
+    margin-left: 100px; 
   }
 
   #conteneur img {
-    width: 400px;
+    width: 450px;
     border-radius: 30px;
+    height: 300px;
   }
   
   .photo {
-   
-padding-top: 90px;
- 
-   
-  }
+    margin-top: 60px;
+    
+ }
   
   .texte {
     margin-top: 60px; 
@@ -406,8 +384,9 @@ padding-top: 90px;
     display: flex;
     justify-content: space-around;
     width: 80%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     padding: 40px;
+    margin: auto;
    
  
   }
@@ -569,7 +548,7 @@ padding-top: 90px;
 
      .bim {
         background-color: #216583;
-        width: 70%;
+        width: 75%;
         height: 180px;
         border-radius: 10px;
         display: flex;
@@ -578,6 +557,7 @@ padding-top: 90px;
         align-items: center;
         padding: 20px;
         margin-left: 200px;
+        margin: auto;
     }
 
     .bim #inp h2{
@@ -591,7 +571,8 @@ padding-top: 90px;
         border-radius: 5px;
         color: #ffffff;
         background-color: #bcbcbc9e;
-        border: none;   
+        border: none; 
+        margin: 10px;  
     }
 
     .bim input::placeholder{
@@ -606,6 +587,7 @@ padding-top: 90px;
         height: 40px;
         background-color: #ffffff;
         color: black;
+        margin: 10px;
     }
     .foot{
         display: flex;
@@ -762,10 +744,6 @@ padding-top: 90px;
     }
     
 
-    .right {
-        /* margin-left: 50px; */
-    }
-
    .right img {
     width: 350px;
     height: 250px;
@@ -781,13 +759,11 @@ padding-top: 90px;
    }
 
    #contact .icon {
-    /* border: 1px solid black; */
     width: 40%;
    }
    
 
    #contact .for {
-    /* border: 1px solid black; */
     width: 100%;
    }
 
@@ -857,11 +833,7 @@ padding-top: 90px;
         flex-direction: column;
         margin-left: 0;
     }
-    /* #conteneur img{
-       margin-left: 0;
-       border-radius: 30px;
-    
-    } */
+
 
     #conteneur .photo img {
         width: 400px;
@@ -875,11 +847,6 @@ padding-top: 90px;
         margin-left: 30px;
         
     }
-    /* #doct {
-        flex-direction: column;
-        margin-left: 40px;
-        background-color: white;
-    } */
 
     #doct .med {
         border: 2px solid #E7E7E7;
@@ -916,14 +883,14 @@ padding-top: 90px;
     #form .formright form {
       margin: auto;
     }
-
+/* 
     .f-left p {
         display: none;
-    }
+    } */
 
-    .f-center {
+    /* .f-center {
         display: none;
-    }
+    } */
     input{
         width: 90%;
         height: 30px;
@@ -976,21 +943,21 @@ padding-top: 90px;
 
     .foot {
         flex-direction: column;
-        
-    }
-    .f-left {
-        border-right: none;
-        border-bottom: 1px solid #ffffff;
-    }
+            
+        }
+        .f-left {
+            border-right: none;
+            border-bottom: 1px solid #ffffff;
+        }
 
-    .f-center {
-        border-right: none;
-        border-bottom: 1px solid #ffffff;
-    }
-    .link {
-        border-right: none;
-        border-bottom: 1px solid #ffffff;
-    }
+        .f-center {
+            border-right: none;
+            border-bottom: 1px solid #ffffff;
+        }
+        .link {
+            border-right: none;
+            border-bottom: 1px solid #ffffff;
+        }
 
     footer {
         padding-top: 20px;
@@ -1006,7 +973,6 @@ padding-top: 90px;
 
 
      #login {
-        /* padding-top: 100px; */
         width: 200px;
         padding-right: 70px;
         padding-left: 70px;
@@ -1121,15 +1087,6 @@ padding-top: 90px;
 }
 
 @media (min-width:750px) and (max-width:1230px) {
-    /* #contact {
-        flex-direction: column;
-        height: 700px;
-    } */
-    /* .for {
-        flex-direction: column;
-        height: 600px;
-        padding: 50px;
-    } */
 
     #conteneur {
         flex-direction: column;
@@ -1138,7 +1095,6 @@ padding-top: 90px;
         margin: 10px;
     }
     #doct {
-        /* flex-direction: column; */
         margin-left: 0;
         background-color: white;
         flex-wrap: wrap;
@@ -1255,7 +1211,6 @@ padding-top: 90px;
 }
 #account form{
     width: 80%;
-    /* margin-left: 10%; */
     margin: auto;
     margin-bottom: 70px;
 }
@@ -1267,9 +1222,6 @@ padding-top: 90px;
     
     
 }
-/* #account form .label input{
-    width: 100%!important;
-} */
 
 .label-1 {
     display: flex;
@@ -1300,63 +1252,7 @@ padding-top: 90px;
     margin-top: 10px;
 
 }
-/*
-.label input, label{
-    margin-left: 8%;
-}
-.label input {
-    margin-top: 10px;
-    width: 100%;
-}
 
-.label select {
-    margin-left: 8%;
-    margin-top: 10px;
-}
-
-select, option {
-    color: #777777;
-}
-
-.name {
-    
-    display: flex;
-    justify-content: space-around;
-    width:90%;
-    margin-left: 6px;
-}
-
-.email {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-}
-
-.email input {
-    width: 81%;
-}
-
-.set {
-    margin-left: 50px;
-}
-
-.connexion  {
-    width: 81%;
-    margin-left: 55px;
-    margin-top: 30px;
-} */
-
-/* input#check.checkbox {
-    margin-left: 55px;
-    margin-top: 29px;
-    
-} */
-
-/* .Sign {
-    width: 81%;
-    margin-left: 58px;
-    margin-top: 50px;
-} */
 
 #login {
     border: 2px solid #E7E7E7;
@@ -1377,7 +1273,6 @@ select, option {
 }
 #login form{
     width: 80%;
-    /* margin-left: 10%; */
     margin: auto;
     margin-bottom: 100px;
 }
