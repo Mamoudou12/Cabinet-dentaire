@@ -42,7 +42,7 @@ header {
 
 
 .menu li a:hover {
-    color: #333;
+    color: #007bff;
 }
 
 button {
@@ -55,6 +55,7 @@ button {
     /* margin-top: 5px; */
     margin-top: 4px;
 }
+
 
 button {
     height: 40px;
