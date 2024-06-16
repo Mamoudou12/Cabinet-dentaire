@@ -884,14 +884,10 @@ button {
     #form .formright form {
       margin: auto;
     }
-/* 
-    .f-left p {
-        display: none;
-    } */
 
-    /* .f-center {
-        display: none;
-    } */
+}
+/* 
+
     input{
         width: 90%;
         height: 30px;
